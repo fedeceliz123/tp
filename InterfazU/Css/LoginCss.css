@@ -1,0 +1,105 @@
+﻿.fondo-login {
+    
+    background-image: url('../Resources/fondologin.png');
+    background-size:100% 100%;
+    height:100vh;
+    width:100%;
+}
+.fondo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagen-logo{
+    height:150px;
+    padding-top:10px;
+}
+
+.formulario {
+    background-color: grey;
+    height: 500px;
+    width: 450px;
+    margin-top: 10%;
+    opacity: 90%;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-align: center;
+}
+
+.tamano {
+   
+ 
+    margin-top: 10%;
+}
+.entrada{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.entrada2 {
+    margin-left: 50px;
+    
+}
+
+.entrada3 {
+   
+    margin-right: 50px;
+}
+
+
+
+.log-text {
+    color: white;
+    margin-top: 55px;
+}
+
+.link-log {
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+}
+
+.cargando {
+    height: 300px;
+    width: 300px;
+}
+
+.cargando-div {
+    text-align: center;
+    padding: 50px;
+}
+
+.modal-carga {
+    background-color: black;
+}
+
+.mod-car {
+    margin-top: 15%;
+}
+
+@media (max-width: 800px) {
+    .formulario {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .formulario {
+        margin-top: 30%;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .cargando {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+    .cargando {
+        height: 150px;
+        width: 150px;
+    }
+}
